@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma carta pra você, Wandra</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+  <div class="envelope" onclick="abrirCarta()" id="envelope">
+    <div class="flap"></div>
+    <img src="foto.jpg" alt="Nossa foto" class="foto">
+    <div class="capa">Clique para abrir</div>
+  </div>
+
+  <div class="carta hidden" id="carta">
+    <h1>Wandra...</h1>
+
+    <p class="linha">Oi, Wandra...</p>
+
+    <p class="linha">
+      Eu demorei pra escrever isso, porque a verdade é que não é fácil admitir o quanto eu errei com você.
+      Mas eu preciso ser sincero...
+    </p>
+
+    <p class="linha">
+      Me desculpa por ter te desrespeitado.
+      Eu sei que passei dos limites, e sei que isso te machucou.
+    </p>
+
+    <p class="linha">
+      E me desculpa pelo que você viu no meu celular...
+      eu sinto muito mesmo por isso.
+    </p>
+
+    <p class="linha">
+      Você não merecia isso vindo de mim.
+    </p>
+
+    <p class="linha assinatura">
+      Com todo meu arrependimento,<br>
+      alguém que realmente sente muito 💔
+    </p>
+
+    <button onclick="mostrarFinal()">Ainda preciso te dizer mais uma coisa...</button>
+
+    <p id="final" class="hidden final">
+      Eu sei que errei feio… mas, se existir uma nova chance,
+      eu prometo fazer tudo certo dessa vez — com respeito, verdade e atitude.
+      <br><br>
+      Me deixa te provar isso… porque eu realmente não quero te perder.
+    </p>
+  </div>
+
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
